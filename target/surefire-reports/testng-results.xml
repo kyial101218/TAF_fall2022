@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2067" started-at="2023-01-09T21:09:34 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2067" started-at="2023-01-09T21:09:34 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+      <class name="practice.TestUser">
+        <test-method status="PASS" signature="createNewUserTest()[pri:0, instance:practice.TestUser@7c351808]" name="createNewUserTest" duration-ms="6" started-at="2023-01-09T21:09:35 ALMT" description="Verify admin can create new user" finished-at="2023-01-09T21:09:35 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method status="PASS" signature="checkCreatedUser()[pri:0, instance:practice.TestUser@7c351808]" name="checkCreatedUser" duration-ms="4" started-at="2023-01-09T21:09:35 ALMT" depends-on-methods="practice.TestUser.createNewUserTest" finished-at="2023-01-09T21:09:35 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatedUser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:practice.TestUser@7c351808]" name="test1" duration-ms="15" started-at="2023-01-09T21:09:35 ALMT" finished-at="2023-01-09T21:09:35 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- practice.TestUser -->
+      <class name="practice.TestDataProvider">
+        <test-method status="PASS" signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:practice.TestDataProvider@bcec031]" name="testLogin" duration-ms="196" started-at="2023-01-09T21:09:34 ALMT" data-provider="login data" finished-at="2023-01-09T21:09:34 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VeryHard@$$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:practice.TestDataProvider@bcec031]" name="testLogin" duration-ms="3" started-at="2023-01-09T21:09:35 ALMT" data-provider="login data" finished-at="2023-01-09T21:09:35 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VeryHard@$$123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:practice.TestDataProvider@bcec031]" name="testLogin" duration-ms="5" started-at="2023-01-09T21:09:35 ALMT" data-provider="login data" finished-at="2023-01-09T21:09:35 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VeryHard@$$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- practice.TestDataProvider -->
+      <class name="TestDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestDemo@41fe9859]" name="setUp" is-config="true" duration-ms="6" started-at="2023-01-09T21:09:35 ALMT" finished-at="2023-01-09T21:09:35 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestDemo@41fe9859]" name="beforeMethod" is-config="true" duration-ms="832" started-at="2023-01-09T21:09:35 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPharmacyTitle()[pri:0, instance:TestDemo@41fe9859]" name="testPharmacyTitle" duration-ms="6" started-at="2023-01-09T21:09:36 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPharmacyTitle -->
+        <test-method status="PASS" signature="afterMehtod()[pri:0, instance:TestDemo@41fe9859]" name="afterMehtod" is-config="true" duration-ms="4" started-at="2023-01-09T21:09:36 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehtod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestDemo@41fe9859]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2023-01-09T21:09:36 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testShops()[pri:0, instance:TestDemo@41fe9859]" name="testShops" duration-ms="3" started-at="2023-01-09T21:09:36 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShops -->
+        <test-method status="PASS" signature="afterMehtod()[pri:0, instance:TestDemo@41fe9859]" name="afterMehtod" is-config="true" duration-ms="2" started-at="2023-01-09T21:09:36 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehtod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestDemo@41fe9859]" name="tearDown" is-config="true" duration-ms="3" started-at="2023-01-09T21:09:36 ALMT" finished-at="2023-01-09T21:09:36 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestDemo -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
